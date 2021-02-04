@@ -58,12 +58,12 @@ title image */
 
 /* icons */
 
-.check-circle{
+.icon{
   color: #ef8172;
-  width: 1%;
+  margin-bottom: 1rem;
 }
 
-.check-circle:hover{
+.icon:hover{
   color: #ff4c68;
 }
 
@@ -77,6 +77,14 @@ title image */
 
 /* features-row */
 
+.features-row{
+  padding: 7% 15%;
+}
+
 .feat-desc{
   color: #8f8f8f
+}
+
+.feature-box{
+  padding: 5%;
 }
