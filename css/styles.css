@@ -3,9 +3,10 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat-Black', sans-serif;
-  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 #title {
@@ -45,4 +46,37 @@ h1 {
 
 .download-button{
   margin: 5% 3% 5% 0;
+}
+
+/*
+title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* icons */
+
+.check-circle{
+  color: #ef8172;
+  width: 1%;
+}
+
+.check-circle:hover{
+  color: #ff4c68;
+}
+
+/* features headline */
+
+.features-headline{
+  font-size: 1.8rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* features-row */
+
+.feat-desc{
+  color: #8f8f8f
 }
