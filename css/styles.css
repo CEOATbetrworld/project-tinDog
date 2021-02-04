@@ -8,6 +8,10 @@ h1 {
   line-height: 1.5;
   font-weight: bold;
 }
+.nav-button{
+  border-style: none;
+  
+}
 
 #title {
   background-color: #ff4c68;
