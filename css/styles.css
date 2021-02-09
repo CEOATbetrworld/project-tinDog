@@ -90,7 +90,6 @@ title image */
 
 /* testimonials */
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -98,7 +97,7 @@ title image */
   font-weight: bold;
 }
 
-#testimonials h2 {
+h2 {
   font-size: 3.5rem;
 }
 
@@ -118,4 +117,10 @@ title image */
   width: 15%;
   margin: 20px;
   margin: 20px 20px 50px;
+}
+
+/* corousel */
+
+.carousel-item{
+  padding: 7% 15%;
 }
