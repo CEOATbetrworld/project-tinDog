@@ -9,6 +9,15 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 3.5rem;
+}
+
+p {
+  text-align: center;
+  padding: 3%;
+  font-size: .8rem;
+}
 .nav-button {
   border-style: none;
 }
@@ -106,9 +115,6 @@ title image */
   font-weight: bold;
 }
 
-h2 {
-  font-size: 3.5rem;
-}
 
 .testimonials-image {
   width: 10%;
@@ -168,11 +174,7 @@ h2 {
   line-height: 1.5;
 }
 
-p {
-  text-align: center;
-  padding: 3%;
-  font-size: .8rem;
-}
+
 
 #footer{
   text-align:center;
