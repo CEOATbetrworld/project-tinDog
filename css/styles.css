@@ -18,6 +18,13 @@ h1 {
   color: white;
 }
 
+#features {
+  background-color: white;
+  position: relative;
+  /* z-index: 1;  */
+  /* we commented the z index because the position of features section is now relative and the features section is below in the html code so we don't need to specify the z-index anymore by defaul becaussse of the relative positioning the element which is below sits on top */
+}
+
 .container-fluid {
   padding: 3% 3%;
 }
@@ -56,6 +63,8 @@ title image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* icons */
@@ -130,6 +139,44 @@ h2 {
   text-align: center;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-text {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  padding: 3%;
+  font-size: .8rem;
+}
+
+#footer{
+  text-align:center;
+  padding: 3%;
+}
+
+.footer-icon{
+  padding: 0 1%;
 }
