@@ -164,6 +164,8 @@ h2 {
   font-family: 'Montserrat';
   color: white;
   font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 p {
@@ -174,7 +176,7 @@ p {
 
 #footer{
   text-align:center;
-  padding: 3%;
+  padding: 7% 15%;
 }
 
 .footer-icon{
