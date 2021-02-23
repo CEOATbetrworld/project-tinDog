@@ -2,15 +2,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
   font-weight: bold;
-}
-
-h2 {
-  font-size: 3.5rem;
 }
 
 p {
@@ -18,6 +12,18 @@ p {
   padding: 3%;
   font-size: .8rem;
 }
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .nav-button {
   border-style: none;
 }
@@ -115,6 +121,11 @@ title image */
   font-weight: bold;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
 
 .testimonials-image {
   width: 10%;
@@ -174,13 +185,11 @@ title image */
   line-height: 1.5;
 }
 
-
-
-#footer{
-  text-align:center;
+#footer {
+  text-align: center;
   padding: 7% 15%;
 }
 
-.footer-icon{
+.footer-icon {
   padding: 0 1%;
 }
